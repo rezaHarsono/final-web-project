@@ -7,12 +7,12 @@ function header() {
           <img src={_tailwind} className="object-scale-down h-12 w-12 inline mr-5 hover:scale-105 " />
         </a>
         <a className="mr-5 text-blue-100 font-bold hover:text-white" href="/">
-          About
+          Home
         </a>
-        <a className="text-blue-100 font-bold hover:text-white" href="/nama">
+        <a className="text-blue-100 font-bold hover:text-white mr-4" href="/nama">
           Nama
         </a>
-        <a className="text-blue-100 font-bold hover:text-white" href="/nama">
+        <a className="text-blue-100 font-bold hover:text-white" href="/porto">
           Portofolio
         </a>
       </nav>
