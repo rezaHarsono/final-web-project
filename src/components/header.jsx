@@ -12,6 +12,9 @@ function header() {
         <a className="text-blue-100 font-bold hover:text-white" href="/nama">
           Nama
         </a>
+        <a className="text-blue-100 font-bold hover:text-white" href="/nama">
+          Portofolio
+        </a>
       </nav>
     </div>
   );
