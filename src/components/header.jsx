@@ -2,7 +2,7 @@ import _tailwind from "./tailwind.png";
 function header() {
   return (
     <div>
-      <nav className="bg-blue-600 text-right pr-11 py-2">
+      <nav className=" text-right pr-11 py-2 bg-slate-800">
         <a href="https://tailwindcss.com/docs/ ">
           <img src={_tailwind} className="object-scale-down h-12 w-12 inline mr-5 hover:scale-105 " />
         </a>
