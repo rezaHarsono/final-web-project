@@ -12,7 +12,7 @@ function App() {
         <_header />
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/" element={<Nama />}></Route>
+          <Route path="/nama" element={<Nama />}></Route>
         </Routes>
       </div>
     </div>
