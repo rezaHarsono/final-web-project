@@ -9,7 +9,7 @@ const home = () => {
   };
 
   return (
-    <div className="w-max-screen h-screen" style={containerStyle}>
+    <div className="w-max-screen h-screen pt-28" style={containerStyle}>
       {
         <div>
           <p className="text-center text-3xl font-bold text-gray-300 pt-10">Welcome!</p>

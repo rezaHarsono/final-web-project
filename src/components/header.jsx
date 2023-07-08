@@ -1,7 +1,10 @@
+import React from "react";
 import _tailwind from "./tailwind.png";
-function header() {
+
+function Header() {
+
   return (
-    <div>
+    <div className="absolute top-0 w-screen">
       <nav className=" text-right pr-11 py-2 bg-slate-800">
         <a href="https://tailwindcss.com/docs/ ">
           <img src={_tailwind} className="object-scale-down h-12 w-12 inline mr-5 hover:scale-105 " />
@@ -12,6 +15,9 @@ function header() {
         <a className="text-blue-100 font-bold hover:text-white mr-4" href="/nama">
           Nama
         </a>
+        <a className="text-blue-100 font-bold hover:text-white mr-4" href="/reza">
+          Reza
+        </a>
         <a className="text-blue-100 font-bold hover:text-white" href="/porto">
           Portofolio
         </a>
@@ -20,4 +26,4 @@ function header() {
   );
 }
 
-export default header;
+export default Header;
