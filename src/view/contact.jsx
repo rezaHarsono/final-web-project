@@ -17,7 +17,11 @@ const contact = () => {
           <h1 className="font-caveat text-8xl text-white mt-16">CONTACT US</h1>
           <div className="grid grid-cols-2 my-auto items-center justify-center">
             <div className="container w-96 h-96 border-2 mx-auto mt-10 rounded-xl bg-blue-600">
-              <div className="mt-10"><a className="font-caveat text-5xl text-white" href="/reza">Reza</a></div>
+              <div className="mt-10">
+                <a className="font-caveat text-5xl text-white p-3 rounded-full hover:border-2" href="/reza">
+                  Reza
+                </a>
+              </div>
               <ul>
                 <li className="hover:scale-110 transition-[150]">
                   <a className="ml-32 mt-10 gap-3 flex text-white font-caveat text-2xl" href="">
@@ -41,7 +45,11 @@ const contact = () => {
             </div>
 
             <div className="container w-96 h-96 border-2 mx-auto mt-10 rounded-xl bg-blue-600">
-              <div className="mt-10"><a className="font-caveat text-5xl text-white p-3 rounded-full hover:border-2" href="/ghavio">Ghavio</a></div>
+              <div className="mt-10">
+                <a className="font-caveat text-5xl text-white p-3 rounded-full hover:border-2" href="/ghavio">
+                  Ghavio
+                </a>
+              </div>
               <ul>
                 <li className="hover:scale-110 transition-[150]">
                   <a className="ml-32 mt-10 gap-3 flex text-white font-caveat text-2xl" href="">
