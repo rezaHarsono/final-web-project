@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 import { RxDotFilled } from "react-icons/rx";
-import Slide1 from "../components/images/Reza/reza.png";
+import Slide1 from "../components/images/Ghavio/ghavio.jpg";
 import Slide2 from "../components/images/pnj.png"
 
-function Porto() {
+function Reza() {
   const slides = [
     {
       title: "Introduction",
       image: Slide1,
       quote:
-        "Halo, perkenalkan nama saya Muhammad Reza Harsono. Saya lahir di Jakarta, 22 Maret 2004. Saat ini saya sedang berkuliah di Politeknik Negeri Jakarta angkatan 2022 jurusan Teknik Informatika dan Komputer dengan Prodi Teknik Informatika.",
+        "Halo, perkenalkan nama saya Ghavio Rizky Ananda. Saya lahir di Jakarta, 21 Agustus 2004. Saat ini saya sedang berkuliah di Politeknik Negeri Jakarta angkatan 2022 jurusan Teknik Informatika dan Komputer dengan Prodi Teknik Informatika.",
     },
     {
       title: "Education",
@@ -73,4 +73,4 @@ function Porto() {
   );
 }
 
-export default Porto;
+export default Reza;
