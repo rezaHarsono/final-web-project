@@ -10,6 +10,9 @@ module.exports = {
       },
       height: {
         '81': '35rem'
+      },
+      fontFamily: {
+        caveat: ["'Caveat', cursive;"]
       }
     },
   },

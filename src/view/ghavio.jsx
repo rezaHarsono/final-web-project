@@ -40,7 +40,7 @@ function Reza() {
   return (
     <div className="container">
       <div className="container h-screen pt-28 bg-blue-500">
-        <div className="relative group bg-slate-800 p-24 mx-20 my-2 rounded-3xl w-max-[1400px] h-[600px]">
+        <div className="relative group bg-slate-800 p-24 mx-20 mb-3 rounded-3xl w-max-[1400px] h-[550px]">
           <div className="absolute top-0 pl-4 my-10 left-1/2 text-white text-4xl mb-4 font-mono">{slides[currentIndex].title}</div>
           <div className="grid grid-cols-2 grid-rows-1 w-full h-full gap-10">
             <div style={{ backgroundImage: `url(${slides[currentIndex].image})` }} className="w-full h-full duration-500 bg-center bg-cover rounded-3xl"></div>
