@@ -18,8 +18,11 @@ function Header() {
         <a className="text-blue-100 font-bold hover:text-white mr-4" href="/reza">
           Reza
         </a>
-        <a className="text-blue-100 font-bold hover:text-white" href="/porto">
-          Portofolio
+        <a className="text-blue-100 font-bold hover:text-white mr-4" href="/porto">
+          Ghavio
+        </a>
+        <a className="text-blue-100 font-bold hover:text-white" href="/about">
+          About Us!
         </a>
       </nav>
     </div>

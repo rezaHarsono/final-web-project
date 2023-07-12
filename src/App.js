@@ -3,6 +3,7 @@ import "./App.css";
 import Home from "./view/home";
 import Nama from "./view/nama";
 import Reza from "./view/reza";
+import Ghavio from "./view/ghavio";
 import _Header from "./components/header";
 import _background from "./components/background";
 
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Home />}></Route>
           <Route path="/nama" element={<Nama />}></Route>
           <Route path="/reza" element={<Reza />}></Route>
+          <Route path="/ghavio" element={<Ghavio />}></Route>
         </Routes>
       </div>
     </div>
