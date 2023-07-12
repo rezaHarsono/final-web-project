@@ -1,8 +1,8 @@
 import React from "react";
 import backgroundImage from "../components/images/background.jpg";
 import instagram from "../components/images/instagram.png";
-import facebook from "../components/images/facebook.png";
-import gmail from "../components/images/gmail.png";
+import github from "../components/images/github.png";
+import threads from "../components/images/threads.png";
 
 const contact = () => {
   const containerStyle = {
@@ -24,21 +24,21 @@ const contact = () => {
               </div>
               <ul>
                 <li className="hover:scale-110 transition-[150]">
-                  <a className="ml-32 mt-10 gap-3 flex text-white font-caveat text-2xl" href="">
+                  <a className="ml-28 mt-10 gap-3 flex text-white font-caveat text-2xl" href="https://www.instagram.com/reza_sadja/">
                     <img className="w-10" src={instagram} alt="" />
-                    Instagram
+                    @reza_sadja
                   </a>
                 </li>
                 <li className="hover:scale-110 transition-[150]">
-                  <a className="ml-32 mt-10 gap-3 flex text-white font-caveat text-2xl" href="">
-                    <img className="w-10" src={facebook} alt="" />
-                    Facebook
+                  <a className="ml-28 mt-10 gap-3 flex text-white font-caveat text-2xl" href="https://github.com/rezaHarsono">
+                    <img className="w-10" src={github} alt="" />
+                    rezaHarsono
                   </a>
                 </li>
                 <li className="hover:scale-110 transition-[150]">
-                  <a className="ml-32 mt-10 gap-3 flex text-white font-caveat text-2xl" href="">
-                    <img className="w-10" src={gmail} alt="" />
-                    Gmail
+                  <a className="ml-28 mt-10 gap-3 flex text-white font-caveat text-2xl" href="https://www.threads.net/@reza_sadja">
+                    <img className="w-10" src={threads} alt="" />
+                    @reza_sadja
                   </a>
                 </li>
               </ul>
@@ -52,21 +52,21 @@ const contact = () => {
               </div>
               <ul>
                 <li className="hover:scale-110 transition-[150]">
-                  <a className="ml-32 mt-10 gap-3 flex text-white font-caveat text-2xl" href="">
+                  <a className="ml-28 mt-10 gap-3 flex text-white font-caveat text-2xl" href="https://www.instagram.com/ghavio_rzky._/">
                     <img className="w-10" src={instagram} alt="" />
-                    Instagram
+                    @ghavio_rzky._
                   </a>
                 </li>
                 <li className="hover:scale-110 transition-[150]">
-                  <a className="ml-32 mt-10 gap-3 flex text-white font-caveat text-2xl" href="">
-                    <img className="w-10" src={facebook} alt="" />
-                    Facebook
+                  <a className="ml-28 mt-10 gap-3 flex text-white font-caveat text-2xl" href="https://github.com/Ghavio1516">
+                    <img className="w-10" src={github} alt="" />
+                    ghavio1516
                   </a>
                 </li>
                 <li className="hover:scale-110 transition-[150]">
-                  <a className="ml-32 mt-10 gap-3 flex text-white font-caveat text-2xl" href="">
-                    <img className="w-10" src={gmail} alt="" />
-                    Gmail
+                  <a className="ml-28 mt-10 gap-3 flex text-white font-caveat text-2xl" href="https://www.threads.net/@ghavio_rzky._">
+                    <img className="w-10" src={threads} alt="" />
+                    ghavio1516
                   </a>
                 </li>
               </ul>
