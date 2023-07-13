@@ -37,7 +37,7 @@ function Reza() {
   };
 
   return (
-    <div className="container">
+    <div className="container w-screen">
       <div className="container h-screen pt-28 bg-blue-500">
         <div className="relative group bg-slate-800 p-24 mx-20 mb-3 rounded-3xl w-max-[1400px] h-[550px]">
           <div className="absolute top-0 pl-4 my-10 left-1/2 text-white text-4xl mb-4 font-mono">{slides[currentIndex].title}</div>

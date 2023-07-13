@@ -11,7 +11,7 @@ const contact = () => {
     backgroundRepeat: "no-repeat",
   };
   return (
-    <div className="w-max-screen h-screen" style={containerStyle}>
+    <div className="w-screen h-screen" style={containerStyle}>
       {
         <div className="container pt-14">
           <h1 className="font-caveat text-8xl text-white mt-16">CONTACT US</h1>
