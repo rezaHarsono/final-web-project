@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { RxDotFilled } from "react-icons/rx";
 import Slide1 from "../components/images/Ghavio/ghavio.jpg";
-import Slide2 from "../components/images/pnj.png"
+import Slide2 from "../components/images/pnj.png";
 
 function Reza() {
   const slides = [
@@ -14,8 +14,7 @@ function Reza() {
     {
       title: "Education",
       image: Slide2,
-      quote:
-        "Saat ini saya sedang berkuliah di Politeknik Negeri jakarta. Saya mulai masuk ke Politeknik Negeri Jakarta pada tahun 2022, sehingga saat ini saya sedang menjalani semester 2. Di PNJ saya mengikuti UKM Sahabat PNJ dan masuk di divisi website.",
+      quote: "Saat ini saya sedang berkuliah di Politeknik Negeri jakarta. Saya mulai masuk ke Politeknik Negeri Jakarta pada tahun 2022, sehingga saat ini saya sedang menjalani semester 2.",
     },
   ];
 
